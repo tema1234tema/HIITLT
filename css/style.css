@@ -2448,7 +2448,6 @@ textarea.input {
   z-index: 5
 }
 .auth-menu__navbar {
-  padding-block: .6875rem 1.0625rem;
   position: absolute;
   border-radius: .9375rem;
   border: .0625rem solid var(--border-btn-color);
@@ -2460,24 +2459,16 @@ textarea.input {
   visibility: hidden;
   transition: opacity .5s
 }
-.auth-menu__navbar ul {
-  display: flex;
-  flex-direction: column;
-  gap: .5rem;
-  padding-inline: 1.0625rem
-}
-.auth-menu__navbar ul:not(:last-child) {
-  margin-bottom: 1.1875rem
-}
 .auth-menu__navbar.v-hidden {
   opacity: 1;
   visibility: visible
 }
 .auth-menu__role {
   color: var(--black);
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
   padding-inline: 1.0625rem;
+  padding-top: .6875rem;
   padding-bottom: .625rem
 }
 .auth-menu__role:not(:last-child) {
@@ -2541,25 +2532,26 @@ textarea.input {
 }
 .auth-menu__published {
   padding-top: .375rem;
+  padding-bottom: 1.0625rem;
   padding-inline: 1.0625rem
 }
 .auth-menu__published p {
   color: var(--black)
 }
 .auth-menu__published p:not(:last-child) {
-  margin-bottom: .375rem
+  margin-bottom: 1.1875rem
 }
 .auth-menu__published:not(:last-child) {
   margin-bottom: 1.1875rem
 }
-.auth-menu__published ul {
-  padding-top: 5px;
+.auth-menu__menu-list {
+  padding-top: .3125rem;
   display: flex;
   flex-direction: column;
   padding-inline: 0;
   gap: .625rem
 }
-.auth-menu__published ul li a {
+.auth-menu__menu-list li a {
   color: var(--main-black);
   font-size: 1.125rem;
   font-weight: 500
@@ -2570,6 +2562,11 @@ textarea.input {
 }
 .auth-menu__ttl:not(:last-child) {
   margin-bottom: .375rem
+}
+.auth-menu__popup-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px
 }
 .auth-menu__btn {
   width: 100%;
@@ -9880,7 +9877,7 @@ textarea.input {
   .auth-menu__link:hover::after {
     width: 100%
   }
-  .auth-menu__published ul li a:hover {
+  .auth-menu__menu-list li a:hover {
     text-decoration: underline
   }
   .auth-menu__btn:hover {
