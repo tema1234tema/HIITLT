@@ -2553,13 +2553,16 @@ textarea.input {
   margin-bottom: 1.1875rem
 }
 .auth-menu__published ul {
+  padding-top: 5px;
   display: flex;
   flex-direction: column;
   padding-inline: 0;
-  gap: 5px
+  gap: .625rem
 }
 .auth-menu__published ul li a {
-  color: var(--main-black)
+  color: var(--main-black);
+  font-size: 1.125rem;
+  font-weight: 500
 }
 .auth-menu__ttl {
   color: var(--black);
