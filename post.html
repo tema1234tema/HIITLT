@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Post a Task</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250402013401">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-lp>
+			<div class="header__container">
+				<div class="header__left">
+					<a href="#" class="header__logo"><img src="img/logo.webp" alt="logo" /></a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link">Post a task</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Find work</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="header__right">
+					<form action="#" method="POST" class="header__form">
+						<input type="text" name="mainSearch" placeholder="Search" class="input" autocomplete="off" />
+					</form>
+					<div class="header__actions">
+						<a href="#" class="header__login">Log in</a>
+						<a data-da=".menu__body,767.98,1" href="#" class="header__sign-up">Sign up</a>
+					</div>
+					<button type="button" class="header__icon icon-menu">
+						<span></span>
+					</button>
+				</div>
+			</div>
+			<div class="header__banner">Happiness is in the little things</div>
+		</header>
+
+		<main class="post">
+			<section class="post__main">
+				<div class="post__container">
+					<form action="#" method="POST" class="post__form">
+						<h1 class="post__ttl">Project publication</h1>
+						<ul class="work__list">
+							<li>
+								<article class="work__step">
+									<div class="work__icon">
+										<img src="img/work/image_01.svg" alt="icon" />
+									</div>
+									<h3>Post a Task</h3>
+									<p>
+										Describe your task and set a budget
+									</p>
+								</article>
+							</li>
+							<li>
+								<article class="work__step">
+									<div class="work__icon">
+										<img src="img/work/image_02.svg" alt="icon" />
+									</div>
+									<h3>Choose a Freelancer</h3>
+									<p>
+										Review proposals and select the best
+										expert
+									</p>
+								</article>
+							</li>
+							<li>
+								<article class="work__step">
+									<div class="work__icon">
+										<img src="img/work/image_03.svg" alt="icon" />
+									</div>
+									<h3>Get the Job Done</h3>
+									<p>
+										Work directly with the freelancer
+										and track progress
+									</p>
+								</article>
+							</li>
+							<li>
+								<article class="work__step">
+									<div class="work__icon">
+										<img src="img/work/image_04.svg" alt="icon" />
+									</div>
+									<h3>Secure Payment</h3>
+									<p>
+										Pay safely when the job is completed
+										to your satisfaction
+									</p>
+								</article>
+							</li>
+						</ul>
+						<div class="post__body">
+							<div class="post__sign-in">
+								Hello! You are already registered. To
+								continue working at the service
+								<a href="#">sign in</a>.
+							</div>
+							<div class="post__line">
+								<label for="projectName">Project name *</label>
+								<input type="text" name="projectName" class="input" />
+							</div>
+							<div class="post__desc">
+								<label for="description">Project description *</label>
+								<textarea required placeholder="Lorem Ipsum is the text of the “fish”, which is subject to vikorism in materials and design. Lorem Ipsum has, in fact, been the standard text ever since the 16th century, when an unknown friend took a galley of type and deposited a selection of bright fonts on it. “Riba” has not only successfully survived five centuries, but has also taken" name="description" id="description"></textarea>
+							</div>
+							<div class="post__deadline">
+								<label>Deadline *</label>
+								<ul class="post__dead-list">
+									<li>
+										<input type="text" autocomplete="off" placeholder="11 march 2025" name="date" required class="input" />
+									</li>
+									<li>
+										<input type="text" autocomplete="off" placeholder="9 a. m." name="startTime" required class="input" />
+									</li>
+									<li>
+										<input type="text" autocomplete="off" placeholder="5 p. m." name="endTile" required class="input" />
+									</li>
+									<li>
+										<input type="text" autocomplete="off" placeholder="2 days" name="days" required class="input" />
+									</li>
+								</ul>
+							</div>
+							<div class="post__checkbox checkbox">
+								<input id="immediately" class="checkbox__input" type="checkbox" value="1" name="immediately" checked />
+								<label for="immediately" class="checkbox__label">
+									<span class="checkbox__icon"></span>
+									<span class="checkbox__text">Immediately</span></label>
+							</div>
+							<div class="post__location location-post">
+								<label>Location *</label>
+								<div class="location-post__wrapper">
+									<ul class="location-post__list">
+										<li>
+											<input type="text" autocomplete="off" name="country" required placeholder="Country" class="input" />
+										</li>
+										<li>
+											<input type="text" autocomplete="off" name="city" required placeholder="City" class="input" />
+										</li>
+										<li>
+											<input type="text" autocomplete="off" name="area" required placeholder="Area" class="input" />
+										</li>
+									</ul>
+									<div class="location-post__area">
+										<h3>Select your area</h3>
+										<div class="location-post__map">
+											<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d387191.33750346623!2d-73.979681!3d40.6974881!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1743111084055!5m2!1suk!2sua" width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="post__photo">
+								<label for="photo">Photo</label>
+								<p>
+									The first photo will be on the cover of
+									the ad. Drag to change the order.
+								</p>
+								<ul class="post__gallery">
+									<li>
+										<div class="post__add-photo">
+											<input id="folePhone" type="file" />
+											<label for="folePhone"><span>
+													Upload Photo
+												</span></label>
+										</div>
+									</li>
+									<li>
+										<div class="post__new-image">
+											<div>
+												<img src="img/post/empty.svg" alt="image" />
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="post__new-image">
+											<div>
+												<img src="img/post/empty.svg" alt="image" />
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="post__new-image">
+											<div>
+												<img src="img/post/empty.svg" alt="image" />
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="post__mobile">
+								<p>0 characters (minimally 100)</p>
+								<div class="post__mob-line">
+									<label for="number">Mobile phone *</label>
+									<input id="number" autocomplete="off" type="tel" name="number" placeholder="(201) 555-0123" class="input" />
+								</div>
+								<p>
+									Only to activate a profile — we will
+									send a free SMS with a registration code
+									in it. If you are already registered,
+									<a href="#">Log in</a>
+								</p>
+							</div>
+							<div class="post__categories">
+								<label for="categories">Categories *</label>
+								<div class="post__select">
+									<i>
+										<img src="img/post/select.svg" alt="select icon" />
+									</i>
+									<select id="categories" name="categories" data-class-modif="form">
+										<option value="1" selected>
+											Select category
+										</option>
+										<option value="2">
+											Select category №1
+										</option>
+										<option value="3">
+											Select category №2
+										</option>
+										<option value="4">
+											Select category №3
+										</option>
+									</select>
+								</div>
+
+								<p>
+									Select relevant project category and we
+									will notify all freelancers with the
+									skills you need.
+								</p>
+							</div>
+							<div class="post__timeframe">
+								<h3>Deadline (Timeframe for Completion)</h3>
+								<p>
+									<i><img src="img/post/calendar.svg" alt="calendar icon" /></i>Specific date
+								</p>
+								<div class="post__checkbox-sec checkbox">
+									<input id="urgent" class="checkbox__input" type="checkbox" value="Urgent (Task needs to be completed ASAP)" name="urgent" checked />
+									<label for="urgent" class="checkbox__label">
+										<span class="checkbox__icon"></span>
+										<span class="checkbox__text">Urgent (Task needs to be
+											completed ASAP)</span></label>
+								</div>
+							</div>
+							<div class="post__budget">
+								<label for="budget">Project budget</label>
+								<div class="post__budget-line">
+									<input autocomplete="off" type="tel" name="budget" class="input" />
+									<span>USD</span>
+								</div>
+								<p>
+									Minimum budget 25 USD. If you are not
+									sure how much a project might cost, just
+									leave it blank. The budget will be
+									proposed by the contractors.
+								</p>
+							</div>
+
+							<button type="submit" class="post__reg-btn reg-btn">
+								Publish a project
+							</button>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer" data-spollers="479.97,max">
+			<div class="footer__container">
+				<a href="" class="footer__logo"><img src="img/logo.webp" alt="logo" /></a>
+				<div class="footer__services">
+					<h3 data-spoller class="footer__ttl">Hire Services <span></span></h3>
+					<nav>
+						<ul>
+							<li><a href="#">All Tasks</a></li>
+							<li><a href="#">My Tasks</a></li>
+							<li><a href="#">Create Task</a></li>
+							<li><a href="#">Task Status</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__services">
+					<h3 class="footer__ttl" data-spoller>Offer Services <span></span></h3>
+					<nav>
+						<ul>
+							<li><a href="#">All Freelancers</a></li>
+							<li><a href="#">My Freelancers</a></li>
+							<li><a href="#">Freelancer Reviews</a></li>
+							<li><a href="#">Register as Freelancer</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__support">
+					<h3 data-spoller class="footer__ttl">Help & Support <span></span></h3>
+					<nav>
+						<ul>
+							<li><a href="#">Frequently Asked Questions</a></li>
+							<li><a href="#">Support Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__contact">
+					<h3 data-spoller class="footer__ttl">Contact Us <span></span></h3>
+					<nav>
+						<ul>
+							<li><a href="#">Log in</a></li>
+							<li><a href="#">Sign up</a></li>
+							<li><a href="#">Forgot login or password?</a></li>
+						</ul>
+					</nav>
+					<a href="#" class="footer__change">Change language</a>
+				</div>
+			</div>
+			<div class="footer__copy">&copy; Happiness is in the little things</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20250402013401"></script>
+</body>
+
+</html>

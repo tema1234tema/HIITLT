@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>My profile - My profile</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250402013401">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header header--auth" data-lp>
+			<div class="header__container">
+				<div class="header__left">
+					<a href="#" class="header__logo"><img src="img/logo.webp" alt="logo" /></a>
+				</div>
+				<div class="header__auth-menu auth-menu">
+					<a href="#" class="auth-menu__create">Create a task in 1 minute!</a>
+					<nav class="auth-menu__body">
+						<ul class="auth-menu__list">
+							<li class="auth-menu__item">
+								<a href="#" class="auth-menu__link">My tasks</a>
+							</li>
+							<li class="auth-menu__item">
+								<a href="#" class="auth-menu__link">Services</a>
+							</li>
+						</ul>
+					</nav>
+					<ul class="auth-menu__actions actions-auth">
+						<li>
+							<a href="#" class="actions-auth__link">
+								<i class="_icon-heart"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="actions-auth__link">
+								<i class="_icon-message"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="actions-auth__link">
+								<i class="_icon-bell"></i>
+							</a>
+						</li>
+					</ul>
+					<div class="auth-menu__user">
+						<button type="button" class="actions-auth__link-user">
+							<img src="img/header_auth/us-icon.svg" alt="icon" />
+						</button>
+						<div class="auth-menu__navbar">
+							<h3 class="auth-menu__role">Client</h3>
+							<div class="auth-menu__user-info">
+								<div class="auth-menu__image">
+									<div>
+										<img src="img/header_auth/us-icon.svg" alt="user icon" />
+									</div>
+									<p>Online</p>
+								</div>
+								<div class="auth-menu__body">
+									<a href="#" class="auth-menu__name"> JohnDoe_99 </a>
+									<p class="auth-menu__rating">⭐ 4.8 (23 reviews)</p>
+								</div>
+							</div>
+							<div class="auth-menu__published">
+								<h4 class="auth-menu__ttl">Project published</h4>
+								<p>2 days 1 hour ago</p>
+							</div>
+							<ul>
+								<li><a href="#" class="auth-menu__btn">Message</a></li>
+								<li>
+									<a href="tel:+12345678" class="auth-menu__btn-transp">
+										<i><img src="img/header_auth/tel.svg" alt="tel icon" /></i>
+										+1 234 5678</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<button type="button" class="auth-menu__icon icon-menu">
+						<span></span>
+					</button>
+				</div>
+			</div>
+			<div class="header__banner">Happiness is in the little things</div>
+		</header>
+
+		<main class="my-profile">
+			<section class="my-profile__header">
+				<div class="my-profile__container">
+					<div class="my-profile__top">
+						<h1 class="my-profile__ttl">My Profile</h1>
+						<ul class="my-profile__list">
+							<li>
+								<a href="#" class="my-profile__link active">Deposit Funds</a>
+							</li>
+							<li>
+								<a href="#" class="my-profile__link">Withdraw Funds</a>
+							</li>
+						</ul>
+					</div>
+					<div class="my-profile__down">
+						<ul class="my-profile__actions">
+							<li>
+								<a href="#" class="my-profile__btn">My tasks</a>
+							</li>
+							<li>
+								<a href="#" class="my-profile__btn">Chat</a>
+							</li>
+							<li>
+								<a href="#" class="my-profile__btn">My Profile</a>
+							</li>
+							<li>
+								<a href="#" class="my-profile__btn active">Settings</a>
+							</li>
+						</ul>
+						<p class="my-profile__balance">
+							Account balance: <span>0.00 USD</span>
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="settings">
+				<div class="settings__container">
+					<form action="#" method="POST" class="settings__form">
+						<div class="settings__main">
+							<div data-spollers class="settings__spollers spollers">
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">
+										Change password <span></span>
+									</button>
+									<div class="spollers__body">
+										<div class="spollers__line">
+											<label for="currentPas">Your current password<span>*</span></label>
+											<input id="currentPas" autocomplete="off" type="password" name="currentPas" required class="input" />
+										</div>
+										<div class="spollers__line">
+											<label for="newPas">New password<span>*</span></label>
+											<input id="newPas" autocomplete="off" type="password" name="newPas" required class="input" />
+										</div>
+										<div class="spollers__line">
+											<label for="confirmPas">Confirm new password<span>*</span></label>
+											<input id="confirmPas" autocomplete="off" type="password" name="confirmPas" required class="input" />
+										</div>
+										<button type="button" class="spollers__btn-change">
+											Change password
+										</button>
+									</div>
+								</div>
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">
+										Notifications (enable/disable)
+										<span></span>
+									</button>
+									<div class="spollers__body">
+										<div class="spollers__line-checkbox line-checkbox">
+											<table class="line-checkbox__table">
+												<thead>
+													<tr>
+														<th></th>
+														<th>Email</th>
+														<th>Phone</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>
+															<h3>Tips</h3>
+															<p>
+																Useful
+																advice,
+																interesting
+																offers,
+																recommendations,
+																and new
+																arrivals.
+															</p>
+														</td>
+														<td>
+															<div class="line-checkbox__checkbox">
+																<input id="emailType" class="line-checkbox__input" type="checkbox" value="1" name="emailType" />
+																<label for="emailType" class="line-checkbox__label"></label>
+															</div>
+														</td>
+														<td>
+															<div class="line-checkbox__checkbox">
+																<input id="phoneType" class="line-checkbox__input" type="checkbox" value="1" name="phoneType" />
+																<label for="phoneType" class="line-checkbox__label"></label>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<h3>
+																Promotions
+															</h3>
+															<p>
+																Personal
+																discounts
+																and special
+																offers.
+															</p>
+														</td>
+														<td>
+															<div class="line-checkbox__checkbox">
+																<input id="emailProm" class="line-checkbox__input" type="checkbox" value="1" name="emailProm" />
+																<label for="emailProm" class="line-checkbox__label"></label>
+															</div>
+														</td>
+														<td>
+															<div class="line-checkbox__checkbox">
+																<input id="phoneProm" class="line-checkbox__input" type="checkbox" value="1" name="phoneProm" />
+																<label for="phoneProm" class="line-checkbox__label"></label>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<h3>
+																Messages
+															</h3>
+															<p>
+																New replies
+																to ads.
+															</p>
+														</td>
+														<td>
+															<div class="line-checkbox__checkbox">
+																<input id="emailMessage" class="line-checkbox__input" type="checkbox" value="1" name="emailMessage" />
+																<label for="emailMessage" class="line-checkbox__label"></label>
+															</div>
+														</td>
+														<td>
+															<div class="line-checkbox__checkbox">
+																<input id="phoneMessage" class="line-checkbox__input" type="checkbox" value="1" name="phoneMessage" />
+																<label for="phoneMessage" class="line-checkbox__label"></label>
+															</div>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+
+										<button type="button" class="spollers__btn">
+											Save
+										</button>
+									</div>
+								</div>
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">
+										Edit Contact Information
+										<span></span>
+									</button>
+									<div class="spollers__body">
+										<div class="spollers__line">
+											<label for="city">Select city
+											</label>
+											<input id="city" autocomplete="off" type="text" name="city" required class="input" />
+										</div>
+										<button type="button" class="spollers__btn">
+											Save
+										</button>
+									</div>
+								</div>
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">
+										Change Phone Number <span></span>
+									</button>
+									<div class="spollers__body">
+										<div class="spollers__line">
+											<label for="phone">New Phone Number</label>
+											<input id="phone" autocomplete="off" type="tel" name="phone" required class="input" />
+										</div>
+										<button type="button" class="spollers__btn">
+											Save
+										</button>
+									</div>
+								</div>
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">
+										Delete Account <span></span>
+									</button>
+									<div class="spollers__body">
+										<button type="button" class="spollers__btn-change">
+											Delete Account
+										</button>
+									</div>
+								</div>
+							</div>
+							<button type="submit" class="settings__btn-change">
+								Delete Account
+							</button>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer" data-spollers="479.97,max">
+			<div class="footer__container">
+				<a href="" class="footer__logo"><img src="img/logo.webp" alt="logo" /></a>
+				<div class="footer__services">
+					<h3 data-spoller class="footer__ttl">Hire Services <span></span></h3>
+					<nav>
+						<ul>
+							<li><a href="#">All Tasks</a></li>
+							<li><a href="#">My Tasks</a></li>
+							<li><a href="#">Create Task</a></li>
+							<li><a href="#">Task Status</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__services">
+					<h3 class="footer__ttl" data-spoller>Offer Services <span></span></h3>
+					<nav>
+						<ul>
+							<li><a href="#">All Freelancers</a></li>
+							<li><a href="#">My Freelancers</a></li>
+							<li><a href="#">Freelancer Reviews</a></li>
+							<li><a href="#">Register as Freelancer</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__support">
+					<h3 data-spoller class="footer__ttl">Help & Support <span></span></h3>
+					<nav>
+						<ul>
+							<li><a href="#">Frequently Asked Questions</a></li>
+							<li><a href="#">Support Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__contact">
+					<h3 data-spoller class="footer__ttl">Contact Us <span></span></h3>
+					<nav>
+						<ul>
+							<li><a href="#">Log in</a></li>
+							<li><a href="#">Sign up</a></li>
+							<li><a href="#">Forgot login or password?</a></li>
+						</ul>
+					</nav>
+					<a href="#" class="footer__change">Change language</a>
+				</div>
+			</div>
+			<div class="footer__copy">&copy; Happiness is in the little things</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20250402013401"></script>
+</body>
+
+</html>
