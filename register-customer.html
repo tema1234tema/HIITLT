@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20250402202504">
+	<link rel="stylesheet" href="css/style.min.css?_v=20250407105612">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,22 +63,13 @@
 									<input id="lname" type="text" name="lname" autocomplete="off" required class="input" />
 								</div>
 								<div class="register__line">
-									<label for="nikName">Nik name *</label>
+									<label for="nikName">Nick name *</label>
 									<input id="nikName" type="text" name="nikName" autocomplete="off" required class="input" />
 								</div>
 								<div class="register__line register__line--cust">
 									<label for="email">Email *</label>
 									<input id="email" type="text" name="email" autocomplete="off" required class="input" />
 								</div>
-								<div class="register__photo">
-									<input id="userPhoto" type="file" name="userPhoto" />
-									<label for="userPhoto">Upload Photo</label>
-									<div class="user-photo" id="userImg">
-										<img src="img/register/upload.webp" alt="user icon" />
-									</div>
-								</div>
-							</div>
-							<div class="register__right">
 								<div class="register__number">
 									<label for="number">Mobile phone *</label>
 									<input id="number" autocomplete="off" type="tel" required placeholder="(201) 555-0123" name="number" class="input" />
@@ -136,7 +127,107 @@
 										</div>
 									</div>
 								</div>
+								<div class="register__photo">
+									<input id="userPhoto" type="file" name="userPhoto" />
+									<label for="userPhoto">Upload Photo</label>
+									<div class="user-photo" id="userImg">
+										<img src="img/register/upload.webp" alt="user icon" />
+									</div>
+								</div>
 							</div>
+							<!-- <div class="register__right">
+                                    <div class="register__number">
+                                        <label for="number"
+                                            >Mobile phone *</label
+                                        >
+                                        <input
+                                            id="number"
+                                            autocomplete="off"
+                                            type="tel"
+                                            required
+                                            placeholder="(201) 555-0123"
+                                            name="number"
+                                            class="input"
+                                        />
+                                    </div>
+                                    <div class="register__country">
+                                        <label>Country *</label>
+                                        <div class="register__selects">
+                                            <select
+                                                id="country"
+                                                name="country"
+                                                data-class-modif="form"
+                                            >
+                                                <option value="1" selected>
+                                                    Canada
+                                                </option>
+                                                <option value="2">
+                                                    Пункт №2
+                                                </option>
+                                                <option value="3">
+                                                    Пункт №3
+                                                </option>
+                                                <option value="4">
+                                                    Пункт №4
+                                                </option>
+                                            </select>
+                                            <select
+                                                name="city"
+                                                id="city"
+                                                data-class-modif="form"
+                                            >
+                                                <option value="1" selected>
+                                                    City
+                                                </option>
+                                                <option value="2">
+                                                    Пункт №2
+                                                </option>
+                                                <option value="3">
+                                                    Пункт №3
+                                                </option>
+                                                <option value="4">
+                                                    Пункт №4
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="register__id-passport">
+                                        <label for="idPasport"
+                                            >Id-pasport *</label
+                                        >
+                                        <div class="register__id-act">
+                                            <input
+                                                id="idPassport"
+                                                required
+                                                autocomplete="off"
+                                                type="text"
+                                                name="idPassport"
+                                                class="input"
+                                            />
+                                            <div class="register__add">
+                                                <button type="button"></button>
+                                                <p>*Skan Documents</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="register__id-passport">
+                                        <label for="licenses">Licenses *</label>
+                                        <div class="register__id-act">
+                                            <input
+                                                id="licenses"
+                                                required
+                                                autocomplete="off"
+                                                type="text"
+                                                name="licenses"
+                                                class="input"
+                                            />
+                                            <div class="register__add">
+                                                <button type="button"></button>
+                                                <p>*Photo Documents</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
 						</div>
 						<button type="submit" class="register__reg-btn reg-btn">
 							Registration
@@ -195,7 +286,7 @@
 		</footer>
 
 	</div>
-	<script src="js/app.min.js?_v=20250402202504"></script>
+	<script src="js/app.min.js?_v=20250407105612"></script>
 </body>
 
 </html>
