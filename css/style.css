@@ -2915,12 +2915,37 @@ textarea.input {
   height: 1.875rem;
   border-radius: 50%;
   overflow: hidden;
-  right: 15px;
-  top: 37px;
+  right: 10px;
+  top: 10px;
   z-index: 3
 }
 .tasks__list.column .tasks__article.vip .tasks__vip img {
-  max-width: 100%
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover
+}
+.tasks__list.column .tasks__article.vip .tasks__asap {
+  position: absolute;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 50%;
+  overflow: hidden;
+  right: 10px;
+  top: 40px;
+  z-index: 3
+}
+.tasks__list.column .tasks__article.vip .tasks__asap img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover
 }
 .tasks__list.column .tasks__body {
   flex: 1 1 auto
@@ -2990,7 +3015,30 @@ textarea.input {
   z-index: 3
 }
 .tasks__list.row .tasks__article.vip .tasks__vip img {
-  max-width: 100%
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover
+}
+.tasks__list.row .tasks__article.vip .tasks__asap {
+  position: absolute;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 50%;
+  top: 45px;
+  left: 11px
+}
+.tasks__list.row .tasks__article.vip .tasks__asap img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover
 }
 .tasks__list.row .tasks__body {
   display: flex;
@@ -7204,6 +7252,11 @@ textarea.input {
     left: auto;
     right: 11px
   }
+  .tasks__list.row .tasks__article.vip .tasks__asap {
+    left: auto;
+    right: 45px;
+    top: 11px
+  }
   .tasks__list.column {
     gap: 1.25rem
   }
@@ -7609,9 +7662,22 @@ textarea.input {
   .tasks__list.column {
     grid-template-columns: repeat(2,1fr)
   }
+  .tasks__list.column .tasks__article.vip .tasks__vip {
+    top: -10px
+  }
+  .tasks__list.column .tasks__article.vip .tasks__asap {
+    top: -10px;
+    right: 45px
+  }
   .tasks__list.row .tasks__article {
     flex-direction: column;
     align-items: flex-start
+  }
+  .tasks__list.row .tasks__article.vip .tasks__vip {
+    top: 0
+  }
+  .tasks__list.row .tasks__article.vip .tasks__asap {
+    top: 0
   }
   .tasks__list.row .tasks__body {
     -webkit-column-gap: 1.25rem;
