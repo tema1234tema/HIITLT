@@ -2281,8 +2281,9 @@ textarea.input {
 .register__links {
   display: flex;
   align-items: center;
-  gap: 1.25rem;
-  flex-wrap: wrap
+  gap: .6875rem;
+  flex-wrap: wrap;
+  justify-content: flex-end
 }
 .register__links:not(:last-child) {
   margin-bottom: 1.25rem
@@ -6678,7 +6679,7 @@ textarea.input {
     margin-bottom: 1.9375rem
   }
   .welcome__actions:not(:last-child) {
-    margin-bottom: 2.0625rem
+    margin-bottom: 1.25rem
   }
   .welcome__forgot:not(:last-child) {
     margin-bottom: 1.625rem
