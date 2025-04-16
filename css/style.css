@@ -2279,11 +2279,10 @@ textarea.input {
   margin-bottom: 1.25rem
 }
 .register__links {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: .6875rem;
-  flex-wrap: wrap;
-  justify-content: flex-end
+  flex-wrap: wrap
 }
 .register__links:not(:last-child) {
   margin-bottom: 1.25rem
@@ -3279,9 +3278,6 @@ textarea.input {
 .welcome__line--sec {
   justify-content: space-between;
   gap: .9375rem 1.6875rem
-}
-.welcome__actions {
-  justify-self: end
 }
 .welcome__actions--sec {
   justify-self: start
@@ -6478,6 +6474,14 @@ textarea.input {
 @media (min-width:479.98px) {
   .footer__ttl:not(:last-child) {
     margin-bottom: 1.25rem
+  }
+}
+@media screen and (min-width:500px) {
+  .register__links {
+    justify-self: end
+  }
+  .welcome__actions {
+    justify-self: end
   }
 }
 @media screen and (min-width:767.98px) {
